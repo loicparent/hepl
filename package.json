@@ -1,0 +1,23 @@
+{
+  "name": "hepl",
+  "main": "./lib/hepl",
+  "version": "0.0.1",
+  "description": "Hepl is a little package for changing a selected word by a combination of Hepl…",
+  "keywords": [
+    "hepl",
+    "Hepl",
+    "HEPL",
+    "help",
+    "change word",
+    "change selected word"
+  ],
+  "activationCommands": {
+    "atom-workspace": "hepl:toggle"
+  },
+  "repository": "https://github.com/loicparent/hepl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

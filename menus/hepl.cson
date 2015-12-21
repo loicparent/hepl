@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle hepl'
+      'command': 'hepl:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Hepl'
+      'submenu': [
+        {
+          'label': 'Changer en Hepl…'
+          'command': 'hepl:toggle'
+        }
+      ]
+    ]
+  }
+]
