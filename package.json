@@ -1,7 +1,7 @@
 {
   "name": "hepl",
   "main": "./lib/hepl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Hepl is a little package for changing a selected word by a combination of Hepl…",
   "keywords": [
     "hepl",
